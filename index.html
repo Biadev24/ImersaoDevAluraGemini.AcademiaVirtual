@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Academia Virtual</title>
+</head>
+<body>
+    <! - - o header é o cabeçalho da página - ->
+  <header>
+    <h1>Minha Academia Virtual \o/</h1>
+  </header>
+  <header class="navbar">
+    <div class="DivBotoes">
+        <ul>
+            <li><button class="home"><a href="index.html">Home</a></button></li>
+                    <li><button class="profile"><a href="profile.html">Perfil</a></button></li>
+        </ul>
+    </div>
+</header>
+  <! - - o main é o conteúdo do site - ->
+  <main>
+   <section>
+    
+    <!-- <input type="text" placeholder="Digite a modalidade física para saber mais" style="width: 315px;">
+    <button onclick="pesquisar()"> Buscar</button> -->
+
+<input type="text" class= "typeahead" id="campo-busca" placeholder="Digite a modalidade física para saber mais" id="campo-busca" style="width: 315px;">
+<button onclick="pesquisar()">Buscar</button>
+<div id="resultados-pesquisa"></div>
+</section>
+  </main>
+  <footer>
+    <p>2024 - Exercite-se. Todos os direitos reservados.</p>
+    <p>Entre em contato pelo e-mail: biamoromba24@bia.com.br</p>
+  </footer>
+  <script src="dados.js">
+      </script>
+  <script src="app.js">
+    </script>
+    </body>
+</html>

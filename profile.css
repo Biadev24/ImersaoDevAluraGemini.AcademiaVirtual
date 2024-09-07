@@ -1,0 +1,481 @@
+@media only screen and (max-width: 2239px) {
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* Define a fonte padrão */
+        background-color: #e6a8dd; /* Cor de fundo da página */
+        display: flex; /* Usa Flexbox para layout */
+        flex-direction: column; /* Alinha os itens na vertical */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        justify-content: center; /* Centraliza os itens verticalmente */
+        height: 100vh; /* Preenche a altura total da viewport */
+        margin: 0; /* Remove a margem padrão */
+        padding: 0; /* Remove o padding padrão */
+    }
+     /*-----------Correção da margem da NavBar----------*/
+     body {
+        margin: 0px;
+    }
+    
+    header {
+        margin-top: -16px;
+        background: rgb(#dddddd);
+    }
+    
+    /*-----------NavBar----------*/
+    .DivBotoes ul {
+        position: relative;
+        display: flex;
+        list-style-type: none
+    }
+    
+    .DivBotoes ul li {
+        margin: 16px;
+    }
+    
+    .DivBotoes ul li a {
+        text-decoration: auto;
+    }
+    
+    /*-----------Estilização dos botões da NavBar----------*/
+    
+    .home {
+        padding: 15px;
+        font-family:  Arial, Helvetica, sans-serif;
+        background: rgb(223, 196, 231);
+        border-color: rgb(238, 166, 196);
+        border-radius: 100px;
+        color: rgb(240, 207, 207);
+        text-decoration: none;
+    }
+    
+    .profile {
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        background: rgb(223, 196, 231);
+        border-color: rgb(238, 166, 196);
+        border-radius: 100px;
+        color: rgb(240, 207, 207);
+        text-decoration: none;
+    }
+    /* Estiliza os títulos h1 */
+    h1 {
+        font-size: 2.5rem; /* Tamanho da fonte */
+        color: #070707; /* Cor do texto */
+        text-align: center; /* Alinha o texto ao centro */
+        letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    }
+    
+    /* Estiliza as seções da página */
+    section {
+        display: flex; /* Usa Flexbox para layout */
+        flex-direction: column; /* Alinha os itens na vertical */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    }
+
+  .q1{
+    background: rgb(250, 47, 47);
+    display: flex;
+    width: 40vw;
+    height: 90vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.hex img{
+    display: flex;
+    width: 7vw;
+    margin: 50px;
+    
+}
+.nome h4{
+    display: flex;
+    margin: 30% -25%;
+    font-size: 25pt;
+    color: white;
+    width: 20vw;
+    flex-wrap: wrap;
+}
+.inf{
+    display: flex;
+    flex-direction: column;
+    margin: -4% 10%;
+    padding: 2px;
+    width: 10vh;
+}
+.inf label{
+    display: flex;
+    height: 0vh;  
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.inf input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 7vw;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14pt;
+    color: white;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 45%; 
+    width: 9vw;
+    height: 25vh;
+}
+.check legend{
+    display: flex;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding: 2px;
+    margin-left: -40%;
+    width: 4vw;
+    height: 3vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+}
+.check input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    width: 10vw;
+    color: white;
+    margin-bottom: -20px;
+    margin-top: -15px;
+    flex-wrap: wrap;
+}
+.check label{
+    width: 9vw;
+    margin-left: 65%;
+    font-size: 15pt;
+    color: white;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    
+}
+.log{
+    display: flex;
+    width: 5vw;
+    height: 8vh;
+}
+.log button{
+    background: none;
+    border: none;
+    pointer-events:stroke;
+    color: white;
+}
+
+
+.q2{
+    background: rgb(255, 255, 255);
+    display: flex;
+    width: 60vw;
+    height: 90vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-direction: column;
+}
+
+.q2 h5{
+    display: flex;
+    width: 30vw;
+    height: 5vh;
+    padding: 10px 10px;
+    color: #F05348;
+    font-size: 25pt;
+    margin: 0;
+}
+.taxa-m{
+    display: flex;
+    margin: 15px;
+    align-content: flex-start;
+    width: 30vw;
+
+}
+
+.textfild input{
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #f80af8d0;
+    padding: 10px 50px;
+    outline: none;
+    margin: 5px;
+}
+.textfild ::placeholder{
+    color: #e10af5fa;
+}
+.tmb{
+    display: flex;
+    width: 10%;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #0918e7;
+    border: none;
+    outline: none;
+}
+.resultado{
+    width: 26vw;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f50c80e3;
+    margin: -40px;
+    margin-left: 130px;
+    color: #ee0ad0;
+}
+
+
+.imc h5{
+    margin:0;
+    display: flex;
+    width: 2vw;
+    height: 5vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    color: #050505;
+    font-size: 25pt;
+    margin-top: -20px;
+}
+.taxa-imc{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.textimc input{
+    width: 90%;
+    align-items: flex-start;
+    height: 10px;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #f80af8d0;;
+    margin: 10px;
+    padding: 10px 50px;
+    outline: none;
+}
+.textimc ::placeholder{
+    color: #e10af5fa;
+}
+.btnimc{
+    display: flex;
+    width: 10%;
+    padding: 15px;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #0918e7;
+    border: none;
+    outline: none;
+}
+.resultado-imc{
+    width: 15vw;
+    align-items: center;
+    height: 26px;
+    display: flex;
+    border-bottom: 1px solid #f50c80e3;
+    margin: -35px;
+    margin-left: 100px;
+    color: #ee0ad0;
+}
+.estado{
+    width: 15vw;
+    align-items: center;
+    height: 15px;
+    display: flex;
+    border-bottom: 1px solid #f50c80e3;
+    color: #ee0ad0;
+    margin-left: 135px;
+    margin-top: 10px;
+}
+
+.tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    margin: 0;
+    padding: 30px;
+
+}
+.tabela1{
+    display: flex;
+    width: 50%;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #440501;
+}
+.tabela1 span{
+    font-weight: bold;
+}
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #000000;
+}}
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: content-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #30475E; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Adiciona efeito hover ao botão de pesquisa */
+section button:hover {
+    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Tamanho da fonte em telas menores */
+        letter-spacing: 0.2rem; /* Espaçamento entre letras em telas menores */
+    }
+
+    section input {
+        width: 25rem; /* Largura dos inputs em telas menores */
+        padding: 0.8rem; /* Espaçamento interno em telas menores */
+    }
+
+    .resultados-pesquisa {
+        width: 40rem; /* Largura da caixa de resultados em telas menores */
+        height: 40vh; /* Altura da caixa de resultados em telas menores */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+    }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem; /* Largura total dos inputs em telas pequenas */
+    }
+
+    section button {
+        padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+        font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
+    }
+
+    .resultados-pesquisa {
+        width: 90%; /* Largura da caixa de resultados em telas pequenas */
+        height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+}

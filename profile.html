@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="profile.css">
+  <title>Academia Virtual</title>
+  <header>
+    <h1>Calcule sua Taxa Metabólica e IMC </h1>
+  </header>
+  <div class="DivBotoes">
+    <ul>
+        <li><button class="home"><a href="index.html">Home</a></button></li>
+                <li><button class="profile"><a href="profile.html">Perfil</a></button></li>
+    </ul>
+</div>
+</head>
+<body>
+    <head>
+        <!-- Calculo Taxa Metabólica Basal-->
+            <div class="q2"> 
+                <div>
+                    <section>
+                    <h2>Taxa metabólica basal</h2>
+                </div>
+                <p>A taxa metabólica basal (TMB) é a quantidade mínima de energia que seu corpo precisa para manter as funções vitais em repouso, como a respiração, a circulação sanguínea e a manutenção da temperatura corporal. Em outras palavras, é a quantidade de calorias que você queima apenas por estar vivo.</p>
+            </section>    
+                <div class="taxa-m"> 
+                    <div class="textfild">  
+                        <input type="text" id="altura" required placeholder="Altura:"> 
+                    </div>
+                    <div class="textfild"> 
+                        <input type="text" id="peso" required placeholder="Peso:">
+                    </div>
+                    <div class="textfild">    
+                        <input type="text" id="idade" required placeholder="Idade:">   
+                    </div> 
+                </div>
+                    <div>
+                        <button class="tmb" onclick="calcularTMB()">Calcular</button>
+                    </div>
+                <div class="taxa-m"> 
+                    <div class="resultado">  
+                        <label id="resultado-label">Resultado:</label> 
+                    </div> 
+             </div>
+                        
+             <!--CALCULO IMC -->
+             <div class="imc">
+                <div>
+                    <h5>IMC</h5>
+                    <p>
+                        IMC é a sigla para Índice de Massa Corporal. É um cálculo simples que relaciona o peso de uma pessoa à sua altura, servindo como um indicador aproximado do estado nutricional.</p>
+                        <p>Para que serve o IMC?</p>
+                        <p>Avaliar o peso: O IMC ajuda a determinar se uma pessoa está com peso abaixo do normal, peso normal, sobrepeso ou obesidade.Identificar riscos: Um IMC elevado pode indicar um maior risco para diversas doenças, como diabetes, hipertensão e doenças do coração.</p>
+                        <h3>OBS: Para preencher insira pontos e vírgulas. Por exemplo: 1.60 de altura e 60,00 quilos</h3>
+                </div>
+                <div class="taxa-imc">
+                    <div class="textimc">
+                        <input type="text" id="altura-imc" required placeholder="Altura:">
+                    </div>
+                    <div class="textimc">
+                        <input type="text" id="peso-imc" required placeholder="Peso:">
+                    </div>
+                </div>
+                <div>
+                    <button class="btnimc" onclick="calcularIMC()">Calcular</button>
+                </div>
+            </div>
+            <div class="taxa-imc"> 
+                <div class="resultado-imc">  
+                    <label id="resultado-imc-label">Resultado:</label> 
+                </div>  
+            </div>
+            <div>
+                <div class="estado">
+                    <label id="estado-label">Estado:</label>
+                </div>
+            </div>
+    
+            <div class="tabela">
+                <div class="tabela1">
+                    <p><span>IMC </span><br> MENOR QUE 18,5 <br> ENTRE 18,5 E 24,9 <br> ENTRE 25,0 E 29,9 <br> ENTRE 30,0 E 39,9 <br> MAIOR QUE 40,0</p>
+                </div>
+                <div class="tabela1">
+                    <p><span>Classificação</span> <br> Magreza <br> Normal <br> Sobrepeso <br> Obeso <br> Obeso Grave</p>
+                </div>
+                <div class="tabela1">
+                    <p> <span>Grau</span> <br> 0 <br> 0 <br> I <br> II <br> III</p>
+                </div>
+            </div> 
+         </div>
+    
+            </div>    
+        </div>
+
+    
+        <script src="profile.js"></script>
+    </body>
+</html>
